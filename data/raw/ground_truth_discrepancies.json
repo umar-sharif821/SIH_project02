@@ -1,0 +1,66 @@
+[
+  {
+    "parcel_id": "P155",
+    "type": "Boundary encroachment"
+  },
+  {
+    "parcel_id": "P149",
+    "type": "Boundary encroachment"
+  },
+  {
+    "parcel_id": "P107",
+    "type": "Parcel area mismatch"
+  },
+  {
+    "parcel_id": "P125",
+    "type": "Parcel area mismatch"
+  },
+  {
+    "parcel_id": "P178",
+    "type": "Unrecorded building"
+  },
+  {
+    "parcel_id": "P198",
+    "type": "Unrecorded building"
+  },
+  {
+    "parcel_id": "P180",
+    "type": "Unrecorded building"
+  },
+  {
+    "parcel_id": "P113",
+    "type": "Built-up area mismatch"
+  },
+  {
+    "parcel_id": "P170",
+    "type": "Built-up area mismatch"
+  },
+  {
+    "parcel_id": "P148",
+    "type": "Recorded building not found"
+  },
+  {
+    "parcel_id": "P118",
+    "type": "Recorded building not found"
+  },
+  {
+    "parcel_id": "P153",
+    "type": "No municipal record"
+  },
+  {
+    "parcel_id": "P901",
+    "type": "Orphan record"
+  },
+  {
+    "parcel_id": "P902",
+    "type": "Orphan record"
+  },
+  {
+    "parcel_id": "P146",
+    "type": "Utility on vacant parcel"
+  },
+  {
+    "parcel_id": "P159",
+    "type": "Utility on vacant parcel"
+  }
+]

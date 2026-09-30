@@ -1,0 +1,49 @@
+parcel_id,issue,severity,evidence,sources_compared,action
+P119,Boundary encroachment,High,Structure D0082 (102 m²): 40% lies outside every parcel (road / public land),imagery-AI × cadastral,Officer verification required
+P149,Boundary encroachment,High,"Structure D0134 (335 m²): 62% in P149, remainder crosses into P150; P150 also has its own structure",imagery-AI × cadastral,Officer verification required
+P155,Boundary encroachment,High,"Structure D0188 (464 m²): 61% in P155, remainder crosses into P169",imagery-AI × cadastral,Officer verification required
+P162,Boundary encroachment,High,Structure D0176 (112 m²): 40% lies outside every parcel (road / public land),imagery-AI × cadastral,Officer verification required
+P194,Boundary encroachment,High,"Structure D0037 (499 m²): 56% in P194, remainder crosses into P193; P193 also has its own structure",imagery-AI × cadastral,Officer verification required
+P198,Boundary encroachment,High,"Structure D0121 (77 m²): 59% in P198, remainder crosses into P210; P210 also has its own structure",imagery-AI × cadastral,Officer verification required
+P206,Boundary encroachment,High,"Structure D0124 (511 m²): 75% in P206, remainder crosses into P190",imagery-AI × cadastral,Officer verification required
+P217,Boundary encroachment,High,"Structure D0123 (594 m²): 74% in P217, remainder crosses into P206; P206 also has its own structure",imagery-AI × cadastral,Officer verification required
+P220,Boundary encroachment,High,"Structure D0125 (527 m²): 51% in P220, remainder crosses into P216",imagery-AI × cadastral,Officer verification required
+P118,Recorded building not found,High,Municipal record MC-022-0118 lists 140 m² built-up; no building detected in imagery,municipal × imagery-AI,Officer verification required
+P122,Recorded building not found,High,Municipal record MC-022-0122 lists 160 m² built-up; no building detected in imagery,municipal × imagery-AI,Officer verification required
+P148,Recorded building not found,High,Municipal record MC-022-0148 lists 140 m² built-up; no building detected in imagery,municipal × imagery-AI,Officer verification required
+P187,Recorded building not found,High,Municipal record MC-022-0187 lists 224 m² built-up; no building detected in imagery,municipal × imagery-AI,Officer verification required
+P196,Recorded building not found,High,Municipal record MC-022-0196 lists 477 m² built-up; no building detected in imagery,municipal × imagery-AI,Officer verification required
+P201,Recorded building not found,High,Municipal record MC-022-0201 lists 226 m² built-up; no building detected in imagery,municipal × imagery-AI,Officer verification required
+P202,Recorded building not found,High,Municipal record MC-022-0202 lists 226 m² built-up; no building detected in imagery,municipal × imagery-AI,Officer verification required
+P203,Recorded building not found,High,Municipal record MC-022-0203 lists 222 m² built-up; no building detected in imagery,municipal × imagery-AI,Officer verification required
+P204,Recorded building not found,High,Municipal record MC-022-0204 lists 213 m² built-up; no building detected in imagery,municipal × imagery-AI,Officer verification required
+P205,Recorded building not found,High,Municipal record MC-022-0205 lists 222 m² built-up; no building detected in imagery,municipal × imagery-AI,Officer verification required
+P213,Recorded building not found,High,Municipal record MC-022-0213 lists 221 m² built-up; no building detected in imagery,municipal × imagery-AI,Officer verification required
+P215,Recorded building not found,High,Municipal record MC-022-0215 lists 210 m² built-up; no building detected in imagery,municipal × imagery-AI,Officer verification required
+P178,Unrecorded building,High,"AI detected 1 building(s), 414 m² inside parcel; municipal record MC-022-0178 says no building",imagery-AI × cadastral × municipal,Officer verification required
+P180,Unrecorded building,High,"AI detected 1 building(s), 305 m² inside parcel; municipal record MC-022-0180 says no building",imagery-AI × cadastral × municipal,Officer verification required
+P198,Unrecorded building,High,"AI detected 2 building(s), 465 m² inside parcel; municipal record MC-022-0198 says no building",imagery-AI × cadastral × municipal,Officer verification required
+P113,Built-up area mismatch,Medium,Municipal built-up 56 m² vs AI-measured 245 m² (-77%),municipal × imagery-AI,Officer verification required
+P170,Built-up area mismatch,Medium,Municipal built-up 67 m² vs AI-measured 298 m² (-78%),municipal × imagery-AI,Officer verification required
+P107,Parcel area mismatch,Medium,Recorded 1283 m² vs 1645 m² measured from boundary (-22%),cadastral attributes × cadastral geometry,Officer verification required
+P125,Parcel area mismatch,Medium,Recorded 1340 m² vs 1072 m² measured from boundary (+25%),cadastral attributes × cadastral geometry,Officer verification required
+P146,Utility on vacant parcel,Medium,Active electricity connection (S22-P146) but municipal record shows no building and none is visible in imagery,utility × municipal × imagery-AI,Officer verification required
+P159,Utility on vacant parcel,Medium,Active electricity connection (S22-P159) but municipal record shows no building and none is visible in imagery,utility × municipal × imagery-AI,Officer verification required
+P153,No municipal record,Low,Parcel 22/153 exists in cadastral map but has no municipal property record,cadastral × municipal,Officer verification required
+P901,Orphan record,Low,Municipal record MC-022-0901 refers to a parcel absent from the cadastral map,municipal × cadastral,Officer verification required
+P902,Orphan record,Low,Municipal record MC-022-0902 refers to a parcel absent from the cadastral map,municipal × cadastral,Officer verification required
+P102,Structure spans multiple parcels,Low,"Structure D0083 (822 m²) covers 2 parcels (P102, P101) — attached construction or merged AI detection",imagery-AI × cadastral,Officer verification required
+P104,Structure spans multiple parcels,Low,"Structure D0059 (747 m²) covers 2 parcels (P104, P105) — attached construction or merged AI detection",imagery-AI × cadastral,Officer verification required
+P106,Structure spans multiple parcels,Low,"Structure D0081 (736 m²) covers 2 parcels (P106, P107) — attached construction or merged AI detection",imagery-AI × cadastral,Officer verification required
+P111,Structure spans multiple parcels,Low,"Structure D0119 (1097 m²) covers 4 parcels (P111, P113, P112, P121) — attached construction or merged AI detection",imagery-AI × cadastral,Officer verification required
+P114,Structure spans multiple parcels,Low,"Structure D0139 (1150 m²) covers 3 parcels (P114, P115, P124) — attached construction or merged AI detection",imagery-AI × cadastral,Officer verification required
+P150,Structure spans multiple parcels,Low,"Structure D0109 (938 m²) covers 2 parcels (P150, P160) — attached construction or merged AI detection",imagery-AI × cadastral,Officer verification required
+P157,Structure spans multiple parcels,Low,"Structure D0079 (850 m²) covers 2 parcels (P157, P156) — attached construction or merged AI detection",imagery-AI × cadastral,Officer verification required
+P158,Structure spans multiple parcels,Low,"Structure D0090 (523 m²) covers 2 parcels (P158, P173) — attached construction or merged AI detection",imagery-AI × cadastral,Officer verification required
+P163,Structure spans multiple parcels,Low,"Structure D0003 (1191 m²) covers 2 parcels (P163, P153) — attached construction or merged AI detection",imagery-AI × cadastral,Officer verification required
+P177,Structure spans multiple parcels,Low,"Structure D0205 (931 m²) covers 2 parcels (P177, P191) — attached construction or merged AI detection",imagery-AI × cadastral,Officer verification required
+P182,Structure spans multiple parcels,Low,"Structure D0195 (1202 m²) covers 4 parcels (P182, P181, P199, P183) — attached construction or merged AI detection",imagery-AI × cadastral,Officer verification required
+P182,Structure spans multiple parcels,Low,"Structure S0004 (946 m²) covers 4 parcels (P182, P183, P171, P170) — attached construction or merged AI detection",imagery-AI × cadastral,Officer verification required
+P185,Structure spans multiple parcels,Low,"Structure D0202 (844 m²) covers 5 parcels (P185, P186, P184, P172, P200) — attached construction or merged AI detection",imagery-AI × cadastral,Officer verification required
+P185,Structure spans multiple parcels,Low,"Structure S0003 (610 m²) covers 5 parcels (P185, P186, P184, P183, P172) — attached construction or merged AI detection",imagery-AI × cadastral,Officer verification required
+P211,Structure spans multiple parcels,Low,"Structure D0194 (992 m²) covers 2 parcels (P211, P212) — attached construction or merged AI detection",imagery-AI × cadastral,Officer verification required

@@ -1,0 +1,17 @@
+parcel_id,issue,severity,evidence,sources_compared,action
+P149,Boundary encroachment,High,"Structure R0027 (268 m²): 75% in P149, remainder crosses into P150; P150 also has its own structure",imagery-AI × cadastral,Officer verification required
+P155,Boundary encroachment,High,"Structure R0096 (189 m²): 75% in P155, remainder crosses into P156; P156 also has its own structure",imagery-AI × cadastral,Officer verification required
+P118,Recorded building not found,High,Municipal record MC-022-0118 lists 140 m² built-up; no building detected in imagery,municipal × imagery-AI,Officer verification required
+P148,Recorded building not found,High,Municipal record MC-022-0148 lists 140 m² built-up; no building detected in imagery,municipal × imagery-AI,Officer verification required
+P178,Unrecorded building,High,"AI detected 1 building(s), 316 m² inside parcel; municipal record MC-022-0178 says no building",imagery-AI × cadastral × municipal,Officer verification required
+P180,Unrecorded building,High,"AI detected 1 building(s), 331 m² inside parcel; municipal record MC-022-0180 says no building",imagery-AI × cadastral × municipal,Officer verification required
+P198,Unrecorded building,High,"AI detected 1 building(s), 251 m² inside parcel; municipal record MC-022-0198 says no building",imagery-AI × cadastral × municipal,Officer verification required
+P113,Built-up area mismatch,Medium,Municipal built-up 56 m² vs AI-measured 158 m² (-64%),municipal × imagery-AI,Officer verification required
+P170,Built-up area mismatch,Medium,Municipal built-up 67 m² vs AI-measured 189 m² (-65%),municipal × imagery-AI,Officer verification required
+P107,Parcel area mismatch,Medium,Recorded 1283 m² vs 1645 m² measured from boundary (-22%),cadastral attributes × cadastral geometry,Officer verification required
+P125,Parcel area mismatch,Medium,Recorded 1340 m² vs 1072 m² measured from boundary (+25%),cadastral attributes × cadastral geometry,Officer verification required
+P146,Utility on vacant parcel,Medium,Active electricity connection (S22-P146) but municipal record shows no building and none is visible in imagery,utility × municipal × imagery-AI,Officer verification required
+P159,Utility on vacant parcel,Medium,Active electricity connection (S22-P159) but municipal record shows no building and none is visible in imagery,utility × municipal × imagery-AI,Officer verification required
+P153,No municipal record,Low,Parcel 22/153 exists in cadastral map but has no municipal property record,cadastral × municipal,Officer verification required
+P901,Orphan record,Low,Municipal record MC-022-0901 refers to a parcel absent from the cadastral map,municipal × cadastral,Officer verification required
+P902,Orphan record,Low,Municipal record MC-022-0902 refers to a parcel absent from the cadastral map,municipal × cadastral,Officer verification required
